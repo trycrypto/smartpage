@@ -7,8 +7,6 @@ contract Roles {
     
     address[] public roleAccounts;
     
-    string[] allRoleNames;
-    
     mapping (address => Role) roles;
     
     function setRole (address _address, string memory _name) public {
