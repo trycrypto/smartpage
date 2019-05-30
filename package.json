@@ -18,10 +18,20 @@
     "prod:map": "webpack --mode production --devtool source-map"
   },
   "dependencies": {
+    "caver-js": "0.9.1",
     "jquery": "^3.0"
   },
   "keywords": [],
   "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.46",
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.46",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.46",
+    "@babel/plugin-transform-runtime": "7.2.0",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "@babel/preset-react": "^7.0.0-beta.46",
+    "@babel/runtime-corejs2": "7.3.1",
+    "babel-loader": "^8.0.0-beta.0",
     "copy-webpack-plugin": "4.6.0",
     "css-loader": "^1.0.0",
     "exports-loader": "0.7.0",

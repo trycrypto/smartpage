@@ -5,7 +5,11 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
-    'SmartPage': path.join(__dirname, "src/editor.html")
+    'smartpage': path.join(__dirname, "src/js/smartpage")
+  },
+  output: {
+    path: path.join(__dirname, "dist"),
+    filename: "[name].min.js"
   },
  // externals: dependencies,
   module: {
@@ -43,7 +47,6 @@ module.exports = {
       { from: 'src/themes', to: 'themes' },
       { from: 'src/css', to: 'css' },
       { from: 'src/editor.html' },
-      { from: 'src/demo', to: 'demo' },
       { from: 'src/fonts', to: 'fonts' },
       { from: 'src/libs', to: 'libs' },
       { from: 'src/js', to: 'js' },
