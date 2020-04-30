@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "caver-js": "0.9.1",
-    "jquery": "^3.0"
+    "jquery": "^3.5"
   },
   "keywords": [],
   "devDependencies": {
